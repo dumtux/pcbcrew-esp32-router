@@ -1,4 +1,4 @@
-# Wi-Fi, Ethernet, and 4G/LTE Network Router
+# ESP-IDF Project for Wi-Fi, Ethernet, and 4G/LTE Network Router
 
 * Derived from [eth2ap Example][eth2ap]
 * Tested using [ESP-IDF framework version 5.0][esp-idf-v5.0]
@@ -16,6 +16,7 @@
 | [PCBCrew Easymeal IoT][pcbcrew-easymeal-iot]                       | [PCBCrew BLDGOT kWh][pcbcrew-bldgot-kwh]                            | [ESP32-Ethernet-Kit][esp32-ethernet-kit]                       |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------- |
 | ![pcbcrew-easymeal-iot](./doc/image/pcbcrew-easymeal-iot-pcba.png) | ![pcbcrew-bldgot-kwh-pcba](./doc/image/pcbcrew-bldgot-kwh-pcba.png) | ![esp32-ethernet-kit](./doc/image/esp32-ethernet-kit-v1.2.png) |
+| ESP32-S3 / W5500 / mini-PCIe                                       | ESP32-S3 / Wiznet W5500                                             | ESP32-WROVER / IP101                                           |
 
 ### Configure the project
 
