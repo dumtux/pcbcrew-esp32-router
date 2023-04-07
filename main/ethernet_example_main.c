@@ -1,10 +1,6 @@
-/* eth2ap (Ethernet to Wi-Fi AP packet forwarding) Example
+/* pcbcrew-esp32-router (Ethernet to Wi-Fi AP packet forwarding)
 
    This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
 */
 #include <string.h>
 #include <stdlib.h>
