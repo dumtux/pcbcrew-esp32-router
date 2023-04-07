@@ -23,7 +23,7 @@
 idf.py menuconfig
 ```
 
-In addition to the common configurations for Ethernet examples from [upper level](../README.md#common-configurations), you might also need to update the default value of following configurations:
+In addition to the common configurations for Ethernet, you might also need to update the default value of following configurations:
 
 In the `Example Configuration` menu:
 * Set the SSID and password for Wi-Fi ap interface under `Wi-Fi SSID` and `Wi-Fi Password`.
