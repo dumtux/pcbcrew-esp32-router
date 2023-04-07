@@ -51,5 +51,5 @@ Check the original documentation of [eth2ap Example][eth2ap].
 [esp-idf-v5.0]: https://github.com/espressif/esp-idf/tree/release/v5.0
 [eth2ap]: https://github.com/espressif/esp-idf/tree/release/v5.0/examples/ethernet/eth2ap
 [pcbcrew-easymeal-iot]: https://github.com/dumtux/pcbcrew-easymeal-iot
-[pcbcrew-bldgot-kwh]: https://github.com/dumtux/[pcbcrew-bldgot-kwh]
-[esp32-ethernet-kit]: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html
+[pcbcrew-bldgot-kwh]: https://github.com/dumtux/pcbcrew-bldgot-kwh
+[esp32-ethernet-kit]: https://github.com/espressif/esp-idf/blob/master/docs/en/hw-reference/esp32/get-started-ethernet-kit.rst
