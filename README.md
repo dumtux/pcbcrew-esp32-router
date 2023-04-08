@@ -1,11 +1,8 @@
 # ESP-IDF Project for Wi-Fi, Ethernet, and 4G/LTE Network Router
 
-* Derived from [eth2ap Example][eth2ap]
 * Tested using [ESP-IDF framework version 5.0][esp-idf-v5.0]
 
 ## Overview
-
-**Note:** In this project, ESP32 works like a *bridge* between Ethernet and Wi-Fi, and it won't perform any actions on Layer3 and higher layer, which means there's no need to initialize the TCP/IP stack.
 
 **Note:** 4G LTE network routing is still work-in-progress.
 
@@ -38,19 +35,15 @@ Build the project and flash it to the board, then run monitor tool to view seria
 idf.py -p PORT build flash monitor
 ```
 
-(Replace PORT with the name of the serial port to use.)
+## References
 
-(To exit the serial monitor, type ``Ctrl-]``.)
-
-See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for full steps to configure and use ESP-IDF to build projects.
-
-## Example Output and ## Troubleshooting
-
-Check the original documentation of [eth2ap Example][eth2ap].
+* [ESP-IDF eth2ap Example][eth2ap]
+* [ESP-IoT-Bridge Solution][esp-iot-bridge]
 
 
 [esp-idf-v5.0]: https://github.com/espressif/esp-idf/tree/release/v5.0
 [eth2ap]: https://github.com/espressif/esp-idf/tree/release/v5.0/examples/ethernet/eth2ap
+[esp-iot-bridge]: https://github.com/espressif/esp-iot-bridge
 [pcbcrew-easymeal-iot]: https://github.com/dumtux/pcbcrew-easymeal-iot
 [pcbcrew-bldgot-kwh]: https://github.com/dumtux/pcbcrew-bldgot-kwh
 [esp32-ethernet-kit]: https://github.com/espressif/esp-idf/blob/master/docs/en/hw-reference/esp32/get-started-ethernet-kit.rst

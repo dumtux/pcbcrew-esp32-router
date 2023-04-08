@@ -1,0 +1,21 @@
+dependencies:
+  espressif/button:
+    version: ==2.2.0
+  espressif/esp_modem:
+    version: 0.*
+  espressif/esp_modem_usb_dte:
+    public: true
+    rules:
+    - if: target in [esp32s2, esp32s3]
+    - if: idf_version >=4.4
+    version: 1.*
+  espressif/iot_bridge:
+    version: '*'
+  idf:
+    version: '>=4.3'
+  web_server:
+    git: https://github.com/espressif/esp-iot-bridge.git
+    path: components/web_server
+  wifi_prov_mgr:
+    git: https://github.com/espressif/esp-iot-bridge.git
+    path: components/wifi_prov_mgr
