@@ -3,10 +3,6 @@
 #include <stdlib.h>
 
 #include "esp_log.h"
-#include "esp_netif.h"
-#include "esp_timer.h"
-#include "esp_system.h"
-#include "esp_event.h"
 
 #include "storage.c"
 #include "button.c"

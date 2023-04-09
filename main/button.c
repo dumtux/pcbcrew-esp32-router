@@ -1,4 +1,7 @@
+#include "esp_timer.h"
 #include "iot_button.h"
+
+#include "esp_log.h"
 
 static const char *TAG_BUTTON = "pcbcrew-router-button";
 
@@ -43,6 +46,8 @@ static void restart_timer_callback(void *arg)
 
 static void setup_button(void)
 {
+    esp_log_level_set("*", ESP_LOG_INFO);
+
     const esp_timer_create_args_t restart_timer_args = {
         .callback = &restart_timer_callback,
         .name = "restart"

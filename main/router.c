@@ -1,3 +1,4 @@
+#include "esp_netif.h"
 #include "esp_bridge.h"
 #if defined(CONFIG_BRIDGE_USE_WEB_SERVER)
 #include "web_server.h"
