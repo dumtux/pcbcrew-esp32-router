@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 #include "esp_log.h"
+#include <ds1307.h>
 
 #include "storage.c"
 #include "button.c"
