@@ -1,4 +1,6 @@
-# ESP-IDF Project for Wi-Fi, Ethernet, and 4G/LTE Network Router
+# PCBCrew ™ ESP32 Router
+
+ESP-IDF Project for Wi-Fi, Ethernet, and 4G/LTE Network Router
 
 * Tested using [ESP-IDF framework version 5.0][esp-idf-v5.0]
 
