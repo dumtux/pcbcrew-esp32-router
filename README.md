@@ -31,6 +31,9 @@ In the `Example Configuration` menu:
 
 ### Build, Flash, and Run
 
+Build the web frontend in the [`webapp/`](./webapp/) folder.
+For more details, read this blog post: ["Creating A Svelte Web Application For ESP32"][pcbcrew-blog-svelte]
+
 Build the project and flash it to the board, then run monitor tool to view serial output:
 
 ```
@@ -49,3 +52,4 @@ idf.py -p PORT build flash monitor
 [pcbcrew-easymeal-iot]: https://github.com/dumtux/pcbcrew-easymeal-iot
 [pcbcrew-bldgot-kwh]: https://github.com/dumtux/pcbcrew-bldgot-kwh
 [esp32-ethernet-kit]: https://github.com/espressif/esp-idf/blob/master/docs/en/hw-reference/esp32/get-started-ethernet-kit.rst
+[pcbcrew-blog-svelte]: https://pcbcrew.com/blog/create-a-svelte-webapp-for-esp32
