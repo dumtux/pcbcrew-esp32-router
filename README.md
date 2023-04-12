@@ -2,7 +2,8 @@
 
 ESP-IDF Project for Wi-Fi, Ethernet, and 4G/LTE Network Router
 
-* Tested using [ESP-IDF framework version 5.0][esp-idf-v5.0]
+* Tested using [ESP-IDF framework version 4.4.4][esp-idf-v4.4]
+<!-- * Tested using [ESP-IDF framework version 5.0][esp-idf-v5.0] -->
 
 ## Overview
 
@@ -47,6 +48,7 @@ idf.py -p PORT build flash monitor
 
 
 [esp-idf-v5.0]: https://github.com/espressif/esp-idf/tree/release/v5.0
+[esp-idf-v4.4]: https://github.com/espressif/esp-idf/tree/release/v4.4
 [eth2ap]: https://github.com/espressif/esp-idf/tree/release/v5.0/examples/ethernet/eth2ap
 [esp-iot-bridge]: https://github.com/espressif/esp-iot-bridge
 [pcbcrew-easymeal-iot]: https://github.com/pcbcrew-org/pcbcrew-easymeal-iot
