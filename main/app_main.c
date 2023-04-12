@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 #include "esp_log.h"
+#include "Arduino.h"
 
 #include "storage.c"
 #include "button.c"
@@ -22,4 +23,12 @@ void app_main(void)
     setup_button();
     setup_router();
     setup_webserver();
+
+    initArduino();
+    pinMode(9, OUTPUT);
+    digitalWrite(9, HIGH);
+
+    while (true) {
+        //
+    }
 }
