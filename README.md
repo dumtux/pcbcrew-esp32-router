@@ -49,7 +49,7 @@ idf.py -p PORT build flash monitor
 [esp-idf-v5.0]: https://github.com/espressif/esp-idf/tree/release/v5.0
 [eth2ap]: https://github.com/espressif/esp-idf/tree/release/v5.0/examples/ethernet/eth2ap
 [esp-iot-bridge]: https://github.com/espressif/esp-iot-bridge
-[pcbcrew-easymeal-iot]: https://github.com/dumtux/pcbcrew-easymeal-iot
-[pcbcrew-bldgot-kwh]: https://github.com/dumtux/pcbcrew-bldgot-kwh
+[pcbcrew-easymeal-iot]: https://github.com/pcbcrew-org/pcbcrew-easymeal-iot
+[pcbcrew-bldgot-kwh]: https://github.com/pcbcrew-org/pcbcrew-bldgot-kwh
 [esp32-ethernet-kit]: https://github.com/espressif/esp-idf/blob/master/docs/en/hw-reference/esp32/get-started-ethernet-kit.rst
 [pcbcrew-blog-svelte]: https://pcbcrew.com/blog/create-a-svelte-webapp-for-esp32
